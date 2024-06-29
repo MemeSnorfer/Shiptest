@@ -226,10 +226,6 @@
 	name = "handkerchief";
 	desc = "A rag for personal hygiene. It's pristinely white."
 	},
-/obj/item/reagent_containers/food/snacks/grown/ash_flora/fireblossom{
-	pixel_x = -8;
-	pixel_y = 10
-	},
 /obj/item/ammo_box/c45{
 	pixel_x = 6
 	},
@@ -237,14 +233,18 @@
 	pixel_x = 6;
 	pixel_y = 8
 	},
+/obj/item/ammo_box/a44roum,
 /obj/item/gun/energy/kalix/pistol{
 	pixel_x = 6;
 	pixel_y = 10
 	},
 /obj/item/gun/ballistic/revolver/shadow{
 	pixel_x = 4;
-	pixel_y = -8;
-	icon_state = "shadow_hiredgun"
+	pixel_y = -8
+	},
+/obj/item/reagent_containers/food/snacks/grown/ash_flora/fireblossom{
+	pixel_x = -8;
+	pixel_y = 10
 	},
 /turf/open/floor/wood/ebony,
 /area/ship/crew/dorm)
