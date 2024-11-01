@@ -462,3 +462,12 @@
 /obj/item/clothing/suit/toggle/armor/vest/centcom_formal/Initialize()
 	. = ..()
 	allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/suit/armor/swat
+    name = "MK.I SWAT Suit"
+    desc = "A tactical armored suit first developed in a joint effort by Vigilitas and Nanotrasen in 4XX for military operations. A tried and true workhorse, it is very difficult to move in but offers robust protection against all threats!"
+    icon_state = "heavy"
+    item_state = "swat_suit"
+    body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+    strip_delay = 120
+    resistance_flags = FIRE_PROOF | ACID_PROOF

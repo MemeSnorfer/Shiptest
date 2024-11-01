@@ -324,19 +324,13 @@
 	icon_state = "justice2"
 
 /obj/item/clothing/head/helmet/swat
-	name = "\improper SWAT helmet"
-	desc = "An extremely robust, space-worthy helmet in a nefarious red and black stripe pattern."
-	icon_state = "swatsyndie"
-	item_state = "swatsyndie"
-	armor = list("melee" = 40, "bullet" = 35, "laser" = 35,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)
-	cold_protection = HEAD
-	min_cold_protection_temperature = SPACE_HELM_MIN_TEMP_PROTECT
-	heat_protection = HEAD
-	max_heat_protection_temperature = SPACE_HELM_MAX_TEMP_PROTECT
-	clothing_flags = STOPSPRESSUREDAMAGE
-	strip_delay = 80
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-	dog_fashion = null
+    name = "\improper SWAT helmet"
+    desc = "An extremely robust helmet in a nefarious red and black stripe pattern."
+    icon_state = "swatsyndie"
+    item_state = "swatsyndie"
+    strip_delay = 80
+    resistance_flags = FIRE_PROOF | ACID_PROOF
+    dog_fashion = null
 
 /obj/item/clothing/head/helmet/police
 	name = "police officer's hat"
