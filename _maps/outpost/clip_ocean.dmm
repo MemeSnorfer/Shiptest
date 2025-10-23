@@ -1733,18 +1733,6 @@
 /obj/machinery/newscaster/directional/south,
 /turf/open/floor/carpet/green,
 /area/outpost/crew/library)
-"ft" = (
-/obj/structure/railing/thin{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/transparent/blue/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/outpost/storage)
 "fv" = (
 /obj/structure/table/reinforced,
 /obj/machinery/fax/admin/outpost,
@@ -7224,15 +7212,6 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel/dark,
 /area/outpost/vacant_rooms/shop)
-"xy" = (
-/obj/structure/railing/thin,
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/effect/turf_decal/trimline/transparent/blue/line,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/outpost/storage)
 "xz" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/effect/decal/cleanable/dirt,
@@ -9085,7 +9064,6 @@
 	},
 /area/outpost/crew/library)
 "DI" = (
-/obj/structure/railing/thin,
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/transparent/blue/line,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -11765,13 +11743,6 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/plasteel/mono/white,
 /area/outpost/medical)
-"LF" = (
-/obj/machinery/computer/mission{
-	dir = 8
-	},
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/turf/open/floor/plasteel/telecomms_floor,
-/area/outpost/storage)
 "LH" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -15698,9 +15669,6 @@
 	},
 /area/outpost/external)
 "XY" = (
-/obj/structure/railing/thin{
-	dir = 1
-	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
@@ -24628,13 +24596,13 @@ Ae
 gF
 SX
 Ol
-hv
-LF
-XY
-hJ
-xy
 uG
 hv
+XY
+hJ
+gY
+hv
+uG
 Ol
 SX
 uL
@@ -24751,13 +24719,13 @@ Ae
 gF
 SX
 Ol
-cR
 jc
-ft
+cR
+Qk
 lj
 DI
-jc
 cR
+jc
 Ol
 SX
 uL
